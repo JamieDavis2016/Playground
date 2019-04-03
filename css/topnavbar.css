@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+#first-navbar a {
+    text-decoration: none;
+}
+
+#first-navbar {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.logo, .whole-container, .left-container, .features_menu, .settings_menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row; 
+}
+
+/* Hamburger */
+
+.hamburger {
+    position: relative;
+    padding: 5px 0;
+    margin-right: 5px;
+    top: -5px;
+    width:  20px;
+    display:none;
+    border:none;
+    background: none;
+    cursor:pointer;
+}
+
+.site-nav-hamburger, .site-nav-hamburger::after, .site-nav-hamburger::before {
+    content: "";
+    width: 20px;
+    height: 3px;
+    border-radius: 4px;
+    background-color: #3a79df;
+    display:    block;
+    position: absolute;
+}
+
+.site-nav-hamburger::after {
+    bottom: -7px;
+}
+
+.site-nav-hamburger::before {
+    top: -7px;
+}
+
+.site-nav-hamburger {
+    top: 50%;
+    margin-top: -1px;
+}
+
+@media(max-width: 760px) {
+    .hamburger {
+        display:inline-block;
+        position: relative;
+        padding: 5px 0;
+        margin-right: 5px;
+        top: -5px;
+        width:  20px;
+    }
+    .features_menu div {
+        display: none;
+    }
+    .features_menu div.show {
+        display: block;
+    }
+}
+/* End Hamburger */
+
+.whole-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.feature_link {
+    text-decoration: none;
+    color: #3a79df
+}
+.disquis-logo {
+    height: 20px;
+    width: 110px;
+}
+
+.left-container, .whole-container {
+    justify-content: space-between;
+}
