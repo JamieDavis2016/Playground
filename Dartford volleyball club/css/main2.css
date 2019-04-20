@@ -1,0 +1,120 @@
+/* Colour guidelines */
+/* #6ca1f0 - blue */
+/* #050607 - black*/
+/* #ededee - white */
+
+* {
+    box-sizing: border-box;
+}
+
+html body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+#nav {
+    background-color: #6ca1f0;
+     position: absolute; 
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#headline {
+    background-color: black;
+    background-image: url("../img/volleyball test image.jpg"); 
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 460px;
+}
+
+#headline .container {
+     top: 13%; 
+     position: absolute;
+     width: 100%;
+     left: 0;
+}
+
+#headline h3 {
+    text-transform: uppercase;
+    text-shadow: 0 2px 0 #6ca1f0;
+}
+
+#headline p {
+    text-shadow: 0 1.5px 0 #6ca1f0;
+    font-size: 3.5vw;
+}
+
+#headline button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    background-color: #050607;
+    border-bottom: 1px solid #6ca1f0;
+    text-shadow: 0 1px 0 #6ca1f0;
+    color: #ededee;
+    font-size: 2.5vw;
+}
+
+#club-training-sessions {
+    display: flex;
+    padding: 20px;
+    background-color: #6ca1f0;
+}
+
+#team-atmosphere {
+    display: flex;
+    padding: 20px;
+    background-color: #ffffff;
+}
+/* #headline h3, p {
+    text-align: center
+} */
+
+#promotional-video {
+    padding: 20px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+#promotional-video video {
+    flex-direction: row; 
+    width: 100%;
+    float:right;
+} 
+
+#promotional-video h2 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#promotional-video .container {
+    margin: auto;
+}
+
+#promotional-video p {
+    float: left;
+    padding-right: 20px;
+}
+
+#current-members {
+    padding: 20px;
+    background-color: #6ca1f0;
+    text-align: center;
+}
+
+#current-members div img {
+    width: 100%;
+}
+#current-members div p {
+    text-align: left;
+}
