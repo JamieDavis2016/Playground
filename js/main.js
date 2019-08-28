@@ -10,3 +10,12 @@ function clickTest() {
         y.className = "disquis";
     }
 }
+
+function carouselTimer() {
+    console.log("imgElement");
+    setTimeout(function () {
+        var element = document.getElementById("carousel-example-div");
+        var imgElement = element.children();
+        console.log(imgElement);
+    }, 2000);
+}

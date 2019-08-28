@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
     <title>
         Navbar stuff
@@ -9,7 +9,7 @@
     <link href="css/topnavbar.css" type="text/css" rel="stylesheet">
 </head>
 
-<body>
+<body onload="carouselTimer()">
     <section id="first-navbar">
         <nav class="disquis" id="disquis">
             <div class="whole-container">
@@ -49,7 +49,14 @@
             </div>
         </nav>
     </section>
-</body>
 
+    <section id="carousel-example">
+        <div class="container" id="carousel-example-div">
+            <img src="#" alt="Some image">
+            <img src="#" hidden alt="Some image2">
+            <img src="#" hidden alt="Some image3">
+        </div>
+    </section>
+</body>
 <script src="js/main.js"></script>
 </html>
