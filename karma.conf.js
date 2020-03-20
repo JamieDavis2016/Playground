@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Mon Mar 16 2020 18:02:19 GMT+0000 (Greenwich Mean Time)
+// Generated on Fri Mar 20 2020 11:22:44 GMT+0000 (Greenwich Mean Time)
 
 module.exports = function(config) {
   config.set({
@@ -15,9 +15,9 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'jasemine tests',
-      '"jasemine tests"/',
-      '"jasemine tests"/spec'
+      '"jasemine tests"/*.js , "jasemine tests/spec/*.js"',
+      '"jasmine tests"/*.js , "jasmine tests/spec/*.js"',
+      '"jasmine tests"/*.js , "jasmine tests/spec/*.js"'
     ],
 
 
@@ -57,7 +57,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Chrome'],
+    browsers: ['PhantomJS'],
 
 
     // Continuous Integration mode
