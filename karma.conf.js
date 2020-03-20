@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Fri Mar 20 2020 11:22:44 GMT+0000 (Greenwich Mean Time)
+// Generated on Fri Mar 20 2020 15:56:42 GMT+0000 (Greenwich Mean Time)
 
 module.exports = function(config) {
   config.set({
@@ -15,9 +15,7 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      '"jasemine tests"/*.js , "jasemine tests/spec/*.js"',
-      '"jasmine tests"/*.js , "jasmine tests/spec/*.js"',
-      '"jasmine tests"/*.js , "jasmine tests/spec/*.js"'
+      'tests/*.js , dist/*.js'
     ],
 
 
