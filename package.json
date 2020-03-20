@@ -3,8 +3,8 @@
   "description": "Continuous Integration with Jasmine, GitHub and Travis CI.",
   "version": "1.0.0",
   "scripts": {
-    "test": "karma start tests/karma.conf.js --single-run"
-  },
+   "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
+},
   "devDependencies": {
     "jasmine-core": "*",
     "karma": "^4.4.1",
