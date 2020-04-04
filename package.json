@@ -1,7 +1,7 @@
 {
-  "name": "My local testing",
-  "description": "Continuous Integration with Jasmine, GitHub and Travis CI.",
+  "name": "TestSuite",
   "version": "0.0.1",
+  "description": "Continuous Integration with Jasmine, GitHub and Travis CI.",
   "license": "MIT",
   "repository": {
     "type": "git",
