@@ -1,5 +1,5 @@
 {
-  "name": "TestSuite",
+  "name": "TestSuitePublic",
   "version": "0.0.1",
   "description": "Continuous Integration with Jasmine, GitHub and Travis CI.",
   "license": "MIT",
